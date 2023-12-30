@@ -1,0 +1,47 @@
+body{
+    background-color:aquamarine;
+    margin:0;
+    border: 6px solid black;
+    font-size: larger;
+}
+
+#photo{
+    border-radius: 300px;
+    height: 25em;
+    width: 20em;
+    display:inline-block;
+}
+
+.apj::first-letter{
+    font-size: 50px;
+    color:red;
+}
+
+main h2{
+    font-size: 30px;
+    text-decoration:solid red underline;
+}
+
+section{
+    background-color: #FF90BC;
+    display:flex;
+    height: 2000px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section img{
+    height: 600px;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 33.3333px;
+    margin-bottom: 33.3333px;
+    border: 2px solid black;  
+}
+
+a{
+    text-decoration: none;;
+}
